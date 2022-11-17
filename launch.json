@@ -1,0 +1,12 @@
+{
+    "configurations": [
+    {
+      "type": "cppdbg",
+      "request": "launch",
+        "name": "Attach by Process ID",
+        "program" : "/home/psammandam/disk/projects/wxwidgets/vazhu-neekuthal/build/vazhu-neeguthal",
+        "stopAtEntry": true,
+        "cwd" : "/home/psammandam/disk/projects/wxwidgets/vazhu-neekuthal/build/"
+    }
+  ]
+}

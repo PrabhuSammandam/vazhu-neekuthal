@@ -1,0 +1,10 @@
+;; Eval Buffer with `M-x eval-buffer' to register the newly created template.
+
+(dap-register-debug-template
+  "cpptools::Run Configuration"
+  (list :type "cppdbg"
+        :request "launch"
+        :name "cpptools::Run Configuration"
+        :MIMode "gdb"
+        :program "/home/psammandam/disk/projects/wxwidgets/vazhu-neekuthal/build/vazhu-neeguthal"
+        :cwd "/home/psammandam/disk/projects/wxwidgets/vazhu-neekuthal"))
